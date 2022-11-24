@@ -4,7 +4,7 @@
 Se debe crear una tienda de productos basada en puntos.
 
 # API
-Podés encontrar la documentación [acá](https://aerolabchallenge.docs.apiary.io/) y podés obtener una API key [acá](https://aerolab.co/coding-challenge)
+Documentación [acá](https://aerolabchallenge.docs.apiary.io/) y obtener una API key [acá](https://aerolab.co/coding-challenge)
 
 ## Definición funcional
 El usuario tiene una cantidad definida de puntos y cada producto vale una cantidad de puntos especifica.
