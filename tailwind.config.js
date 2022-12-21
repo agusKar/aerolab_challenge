@@ -3,9 +3,14 @@ module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    './src/**/*.css'
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+      colors: {
+        'cyan': '#78dcca',
+
+      }
+    }
+  }
 }

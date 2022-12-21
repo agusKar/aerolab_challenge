@@ -1,17 +1,21 @@
-import * as React from "react";
+import React from "react";
 
-import logo from "../assets/logo.svg";
+// Components
+import AppProvider from "~/context";
+import Filters from "./Filters";
+import Header from "./Header";
+import ListProducts from "./ListProducts";
+import Navbar from "./Navbar";
 
 const App: React.FC = () => {
   return (
-    <main className="">
-      <header>
-        <h1>
-          <img alt="Aerolab" src={logo} width={128} />
-        </h1>
-        <h3 className="text-3xl font-bold underline">Lets get this party started</h3>
-      </header>
-    </main>
+    <AppProvider>
+      <main>
+        <Navbar />
+        <Header title="Electronica" />
+        <ListProducts />
+      </main>
+    </AppProvider>
   );
 };
 
